@@ -29,6 +29,12 @@ h2
 	text-align: center;
 }
 
+strong
+{
+	font-weight: bold;
+	color: red;
+}
+
 @media (max-width: 1024px)
 {
 
@@ -63,10 +69,10 @@ h2
 {
 	text-align: center;
 }
+
+strong
+{
+	font-weight: bold;
+	color: red;
 }
-
-
-
-
-
-
+}
