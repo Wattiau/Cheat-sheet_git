@@ -70,3 +70,79 @@ li
 	margin-top: -28px;
 	padding-bottom: 2em;
 }
+
+@media (max-width: 1024px){
+
+
+body
+{
+	background-color: #40E0D0;
+	margin-top: -45px;
+	margin-left: -22px;
+	margin-right: -22px;
+}
+
+header
+{
+	background-color: #40E0D0;
+	text-align: center;
+	color: black;
+	font-size: 2em;
+	padding-bottom: .4em;
+	padding-top: .6em;
+}
+
+h2
+{
+	text-align: center;
+	font-size: 2em;
+	padding-top: 0.8em;
+}
+
+code
+{
+	background-color: black;
+	color: white;
+	padding: 5px 15px;
+	border-radius: .8em .8em .8em .8em;
+	font-weight: bold;
+}
+
+dt
+{
+	display: inline;
+	margin-left: 10px;
+}
+
+li
+{
+	line-height: 2em;
+	font-size: 1.2em;
+	padding-left: 2em;
+	list-style: none;
+}
+
+#article1
+{
+	background-color: #ADD8E6;
+	color: black;
+	margin-top: -44px;
+	padding-bottom: 2em;
+}
+
+#article2
+{
+	background-color: #EEE8AA;
+	color: black;
+	margin-top: -28px;
+	padding-bottom: 2em;
+}
+
+#article3
+{
+	background-color: #40E0D0;
+	color: black;
+	margin-top: -28px;
+	padding-bottom: 2em;
+}
+}
