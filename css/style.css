@@ -1,7 +1,7 @@
 
 body
 {
-	background-color: white;
+	background-color: red;
 	margin-top: -45px;
 	margin-left: -22px;
 	margin-right: -22px;
@@ -9,7 +9,9 @@ body
 
 header
 {
+	background-color: black;
 	text-align: center;
+	color: white;
 	font-size: 2em;
 }
 
@@ -17,6 +19,7 @@ h2
 {
 	text-align: center;
 	font-size: 2em;
+	padding-top: 0.8em;
 }
 
 code
@@ -36,12 +39,14 @@ dt
 li
 {
 	line-height: 2em;
+	font-size: 1.2em;
 }
 
 #article1
 {
 	background-color: blue;
 	color: white;
+	margin-top: -44px;
 }
 
 #article2
