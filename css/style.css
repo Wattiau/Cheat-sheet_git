@@ -79,7 +79,7 @@ body
 	background-color: #40E0D0;
 	margin-top: -45px;
 	margin-left: -22px;
-	margin-right: -22px;
+	margin-right: 1px;
 }
 
 header
@@ -87,9 +87,9 @@ header
 	background-color: #40E0D0;
 	text-align: center;
 	color: black;
-	font-size: 2em;
+	font-size: 1.8em;
 	padding-bottom: .4em;
-	padding-top: .6em;
+	padding-top: .6	em;
 }
 
 h2
