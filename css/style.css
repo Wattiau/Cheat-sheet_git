@@ -1,22 +1,36 @@
-header
-{
-	text-align: center;
-	color: white;
-}
 
 body
 {
-	background-image : url("http://www.omegatic.com/wp-content/uploads/2014/05/Background-HD-Wallpaper-02-Download.jpg");
-	background-size: cover;
+	background-color: white;
+	margin-top: -45px;
+	margin-left: -22px;
+	margin-right: -22px;
 }
 
-section
+header
 {
-	border: solid black 1.2em;
-	border-radius: 2em;
-	background-color: silver;
-	width: 550px;
-	margin: auto;
+	text-align: center;
+	font-size: 2em;
+}
+
+h2
+{
+	text-align: center;
+	font-size: 2em;
+}
+
+code
+{
+	background-color: black;
+	color: white;
+	padding: 5px 15px;
+	border-radius: .8em .8em .8em .8em;
+	font-weight: bold;
+}
+
+dt
+{
+	display: inline;
 }
 
 li
@@ -24,55 +38,22 @@ li
 	line-height: 2em;
 }
 
-h2
+#article1
 {
-	text-align: center;
-}
-
-strong
-{
-	font-weight: bold;
-	color: red;
-}
-
-@media (max-width: 1024px)
-{
-
-header
-{
-	text-align: center;
+	background-color: blue;
 	color: white;
 }
 
-body
+#article2
 {
-	background-image : url("http://www.omegatic.com/wp-content/uploads/2014/05/Background-HD-Wallpaper-02-Download.jpg");
-	background-size: cover;
+	background-color: green;
+	color: white;
+	margin-top: -28px;
 }
 
-section
+#article3
 {
-	border: solid black .5em;
-	border-radius: 1em;
-	background-color: silver;
-	width: 90%;
-	margin: auto;
-	line-height: 1.5em;
-}
-
-li
-{
-	line-height: 1.5em;
-}
-
-h2
-{
-	text-align: center;
-}
-
-strong
-{
-	font-weight: bold;
-	color: red;
-}
+	background-color: red;
+	color: white;
+	margin-top: -28px;
 }

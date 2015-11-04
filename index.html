@@ -7,7 +7,6 @@
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=yes"/>
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="shortcut icon" href="icon.ico"/>
-
 </head>
 
 <body>
@@ -17,33 +16,37 @@
 	</header>
 
 	<section>
+	<article id="article1">
 		<h2>Effectuer des changements :</h2>
 
 			<ul>
-				<li><strong>it</strong> status = Liste tous les nouveaux fichiers et les fichiers modifiés à commiter.</li>
-				<li><strong>git diff</strong> = Montre les modifications de fichier qui ne sont pas encore indexées.</li>
-				<li><strong>git add</strong> = Ajoute un instantané du fichier, en préparation pour le suivi de version.</li>
-				<li><strong>git commit -m "[message descriptif]"</strong> = Enregistre des instantanés de fichiers de façon permanente dans
-				l'historique des versions.</li>
-
+				<li><code>git status</code><dt>Liste tous les nouveaux fichiers et les fichiers modifiés à commiter.</dt></li>
+				<li><code>git diff</code><dt>Montre les modifications de fichier qui ne sont pas encore indexées.</dt></li>
+				<li><code>git add</code><dt>Ajoute un instantané du fichier, en préparation pour le suivi de version.</dt></li>
+				<li><code>git commit -m "[message descriptif]"</code><dt>Enregistre des instantanés de fichiers de façon permanente dans
+				l'historique des versions.</dt></li>
 			</ul>
+	</article>
 
+	<article id="article2">
 		<h2>Grouper des changements :</h2>
 
 			<ul>
-				<li><strong>git branch</strong> = Liste toutes les branches locales dans le dépôt courant.</li>
-				<li><strong>git branch [nom-de-branche]</strong> = Crée une nouvelle branche.</li>
-				<li><strong>git checkout [nom-de-branche]</strong> = Bascule sur la branche spécifiée et met à jour le répertoire de travail.</li>
-				<li><strong>git merge [nom-de-branche]</strong> = Combine dans la branche courante l'historique de la branche spécifiée.</li>
-				<li><strong>git branch -d [nom-de-branche]</strong> = Supprime la branche spécifiée.</li>
+				<li><code>git branch</code><dt>Liste toutes les branches locales dans le dépôt courant.</dt></li>
+				<li><code>git branch [nom-de-branche]</code><dt>Crée une nouvelle branche.</dt></li>
+				<li><code>git checkout [nom-de-branche]</code><dt>Bascule sur la branche spécifiée et met à jour le répertoire de travail.</dt></li>
+				<li><code>git merge [nom-de-branche]</code><dt>Combine dans la branche courante l'historique de la branche spécifiée.</dt></li>
+				<li><code>git branch -d [nom-de-branche]</code><dt>= Supprime la branche spécifiée.</dt></li>
 			</ul>
-
+	</article>
+	<article id="article3">
 		<h2>Changement au niveau des noms de fichiers :</h2>
 
 			<ul>
-				<li><strong>git rm</strong> = Supprime le fichier du répertoire de travail et met a jour l'index.</li>
-				<li><strong>git mv</strong> = Renomme le fichier et prépare le changement pour un commit.</li>
+				<li><code>git rm</code><dt>Supprime le fichier du répertoire de travail et met a jour l'index.</dt></li>
+				<li><code>git mv</code><dt>Renomme le fichier et prépare le changement pour un commit.</dt></li>
 			</ul>
+	</article>
 	</section>
 
 	<footer>
