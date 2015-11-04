@@ -1,7 +1,7 @@
 
 body
 {
-	background-color: red;
+	background-color: #40E0D0;
 	margin-top: -45px;
 	margin-left: -22px;
 	margin-right: -22px;
@@ -9,10 +9,12 @@ body
 
 header
 {
-	background-color: black;
+	background-color: #40E0D0;
 	text-align: center;
-	color: white;
+	color: black;
 	font-size: 2em;
+	padding-bottom: .4em;
+	padding-top: .6em;
 }
 
 h2
@@ -41,25 +43,30 @@ li
 {
 	line-height: 2em;
 	font-size: 1.2em;
+	padding-left: 2em;
+	list-style: none;
 }
 
 #article1
 {
-	background-color: blue;
-	color: white;
+	background-color: #ADD8E6;
+	color: black;
 	margin-top: -44px;
+	padding-bottom: 2em;
 }
 
 #article2
 {
-	background-color: green;
-	color: white;
+	background-color: #EEE8AA;
+	color: black;
 	margin-top: -28px;
+	padding-bottom: 2em;
 }
 
 #article3
 {
-	background-color: red;
-	color: white;
+	background-color: #40E0D0;
+	color: black;
 	margin-top: -28px;
+	padding-bottom: 2em;
 }
