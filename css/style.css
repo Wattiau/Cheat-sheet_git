@@ -13,8 +13,13 @@ header
 	text-align: center;
 	color: black;
 	font-size: 2em;
-	padding-bottom: .4em;
+	padding-bottom: .6em;
 	padding-top: .6em;
+}
+
+a
+{
+	color:black;
 }
 
 h2
@@ -88,7 +93,7 @@ header
 	text-align: center;
 	color: black;
 	font-size: 1.8em;
-	padding-bottom: .4em;
+	padding-bottom: .8em;
 	padding-top: .6	em;
 }
 

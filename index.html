@@ -4,54 +4,89 @@
 <head>
 	<title>Cheat sheet git</title>
 	<meta charset="utf-8" lang="fr" />
-	<meta name="viewport" content="initial-scale=1.0, user-scalable=yes"/>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
 	<link rel="stylesheet" href="css/style.css" />
-	<link rel="shortcut icon" href="icon.ico"/>
+	<link rel="shortcut icon" href="icon.ico" />
 </head>
 
 <body>
 
 	<header>
 		<h1>Cheat sheet git</h1>
+		<a href="#ancre1">Changements</a>
+		<a href="#ancre2">Groupements</a>
+		<a href="#ancre3">Noms</a>
 	</header>
 
 	<section>
-	<article id="article1">
+		<article id="article1">
 
-		<h2>Effectuer des changements :</h2>
-
-			<ul>
-				<li><code>git status</code><dt>Liste tous les nouveaux fichiers et les fichiers modifiés à commiter.</dt></li>
-				<li><code>git diff</code><dt>Montre les modifications de fichier qui ne sont pas encore indexées.</dt></li>
-				<li><code>git add</code><dt>Ajoute un instantané du fichier, en préparation pour le suivi de version.</dt></li>
-				<li><code>git commit -m "[message descriptif]"</code><dt>Enregistre des instantanés de fichiers de façon permanente dans
-				l'historique des versions.</dt></li>
-			</ul>
-
-	</article>
-	<article id="article2">
-
-		<h2>Grouper des changements :</h2>
+			<h2 id="ancre1">Effectuer des changements :</h2>
 
 			<ul>
-				<li><code>git branch</code><dt>Liste toutes les branches locales dans le dépôt courant.</dt></li>
-				<li><code>git branch [nom-de-branche]</code><dt>Crée une nouvelle branche.</dt></li>
-				<li><code>git checkout [nom-de-branche]</code><dt>Bascule sur la branche spécifiée et met à jour le répertoire de travail.</dt></li>
-				<li><code>git merge [nom-de-branche]</code><dt>Combine dans la branche courante l'historique de la branche spécifiée.</dt></li>
-				<li><code>git branch -d [nom-de-branche]</code><dt>Supprime la branche spécifiée.</dt></li>
+				<li>
+					<code>git status</code>
+					<dt>Liste tous les nouveaux fichiers et les fichiers modifiés à commiter.</dt>
+				</li>
+				<li>
+					<code>git diff</code>
+					<dt>Montre les modifications de fichier qui ne sont pas encore indexées.</dt>
+				</li>
+				<li>
+					<code>git add</code>
+					<dt>Ajoute un instantané du fichier, en préparation pour le suivi de version.</dt>
+				</li>
+				<li>
+					<code>git commit -m "[message descriptif]"</code>
+					<dt>Enregistre des instantanés de fichiers de façon permanente dans l'historique des versions.</dt>
+				</li>
 			</ul>
 
-	</article>
-	<article id="article3">
+		</article>
+		<article id="article2">
 
-		<h2>Noms de fichiers :</h2>
+			<h2 id="ancre2">Grouper des changements :</h2>
 
 			<ul>
-				<li><code>git rm</code><dt>Supprime le fichier du répertoire de travail et met a jour l'index.</dt></li>
-				<li><code>git mv</code><dt>Renomme le fichier et prépare le changement pour un commit.</dt></li>
+				<li>
+					<code>git branch</code>
+					<dt>Liste toutes les branches locales dans le dépôt courant.</dt>
+				</li>
+				<li>
+					<code>git branch [nom-de-branche]</code>
+					<dt>Crée une nouvelle branche.</dt>
+				</li>
+				<li>
+					<code>git checkout [nom-de-branche]</code>
+					<dt>Bascule sur la branche spécifiée et met à jour le répertoire de travail.</dt>
+				</li>
+				<li>
+					<code>git merge [nom-de-branche]</code>
+					<dt>Combine dans la branche courante l'historique de la branche spécifiée.</dt>
+				</li>
+				<li>
+					<code>git branch -d [nom-de-branche]</code>
+					<dt>Supprime la branche spécifiée.</dt>
+				</li>
 			</ul>
 
-	</article>
+		</article>
+		<article id="article3">
+
+			<h2 id="ancre3">Noms de fichiers :</h2>
+
+			<ul>
+				<li>
+					<code>git rm</code>
+					<dt>Supprime le fichier du répertoire de travail et met a jour l'index.</dt>
+				</li>
+				<li>
+					<code>git mv</code>
+					<dt>Renomme le fichier et prépare le changement pour un commit.</dt>
+				</li>
+			</ul>
+
+		</article>
 	</section>
 
 	<footer>
