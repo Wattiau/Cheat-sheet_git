@@ -161,7 +161,13 @@ li
 .toppages
 {
 	color: black;
-	margin-left: 80px;
+	margin-left: 110px;
+	font-size: 1em;
+}
+
+a
+{
+	color:black;
 	font-size: 1em;
 }
 }
